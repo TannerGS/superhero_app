@@ -3,7 +3,7 @@ import Body from './components/Body';
 
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <h1 className="title">Superhero List</h1>
