@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+import Search from './components/Search';
+import Body from './components/Body';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Superhero App
-      </h1>
+      <Search />
+      <Body />
     </div>
   );
 }
